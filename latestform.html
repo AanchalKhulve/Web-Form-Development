@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <script src='https://www.google.com/recaptcha/api.js'></script>
+ <style type="text/css" media="all">
+    .text-center {
+        text-align: center;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+    }
+</style>
+ <meta http-equiv="Content-Type"  content="text/html;charset=utf-8" />
+ <title>Enter the Message</title>
+ </head>
+ <body>
+ <div style="text-align:center"><form id="contact-us-form" class="contact-us-form" role="form" method="post" action="form.php" data-cs-self-form data-cs-success-message="Thank You for Registering with us!">
+ <br/>
+ <div class="form-group">
+                    <input type="text" size="50" class="form-control" name="entry.594894579" placeholder="Your Name..." data-cs-required data-cs-error-msg="Name" maxlength="40">
+                </div>
+                <br/>
+ <div class="form-group">
+                    <input type="email" size="50" class="form-control" name="entry.1354810091" placeholder="Your Email..." data-cs-self-form-email>
+                </div>
+                <br/>
+ <div class="form-group">
+                    <textarea class="form-control" name="entry.797296512" placeholder="Write down your message..." rows="4" cols="52" data-cs-required data-cs-error-		                    msg="Message" style="height: 135px;"></textarea>
+                </div>
+                
+ <p><input id="upload-ss" name="ss" type="checkbox" value="1" /><label title="Show Page Source" for="upload-ss">Please check the box to agree to our <a            href="">Privacy Policy</a></label></p>
+ <div class="text-center">
+ <div class="g-recaptcha" data-sitekey="6LdjFqkUAAAAALw83CfdPtYXwhZeCA_5wsYaj4Mx"></div>
+ </div>
+ <p>               <input type="submit" value="SEND" style="background-color:green;" data-cs-self-form-submit></p>
+          </form></div>
+ </body>
+</html>
